@@ -9,3 +9,8 @@ func Reverse(s string) string {
 
 	return string(r)
 }
+
+// RuneCount returns the number of symbols (runes) in the string
+func RuneCount(s string) int {
+	return len([]rune(s))
+}
