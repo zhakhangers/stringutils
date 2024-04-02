@@ -2,6 +2,7 @@
 package stringutils_test
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/zhakhangers/stringutils"
@@ -48,4 +49,14 @@ func TestRuneCount(t *testing.T) {
 			}
 		})
 	}
+}
+
+func ExampleReverse() {
+	fmt.Println(stringutils.Reverse("こんにちは"))
+	// Output: はちにんこ
+}
+
+func ExampleRuneCount() {
+	fmt.Println(stringutils.RuneCount("hello"))
+	// Output: 5
 }
