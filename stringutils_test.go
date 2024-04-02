@@ -1,5 +1,5 @@
 // stringutils_test.go
-package stringutils_test
+package stringutils
 
 import (
 	"fmt"
